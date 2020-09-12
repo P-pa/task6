@@ -28,11 +28,6 @@ resource "aws_security_group" "aws_rds" {
 
 
 
-
-
-
-
-
 resource "aws_db_instance" "wp_rds" {
      allocated_storage    = 20
      storage_type         = "gp2"
@@ -144,17 +139,6 @@ resource "kubernetes_deployment" "wp-deploy"{
        }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
